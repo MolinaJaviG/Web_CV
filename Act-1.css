@@ -1,0 +1,298 @@
+p {
+	justify-content: center;
+	text-align: justify;
+}
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	cursor: url(Cursor/cursor.cur), auto;
+}
+.lato-thin {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-style: normal;
+}
+.lato-light {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+.lato-regular {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.lato-bold {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.lato-black {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+.lato-thin-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 100;
+	font-style: italic;
+}
+.lato-light-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+.lato-regular-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+.lato-bold-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+.lato-black-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+}
+@keyframes example {
+	0% {
+		left: 0px;
+		top: 0px;
+		opacity: 0%;
+	}
+	50% {
+		left: -200px;
+		top: 0px;
+		opacity: 0%;
+	}
+	75% {
+		opacity: 50%;
+	}
+	100% {
+		left: 0px;
+		top: 0px;
+		opacity: 100%;
+	}
+}
+@keyframes example2 {
+	0% {
+		right: 0px;
+		top: 0px;
+		opacity: 0%;
+	}
+	50% {
+		right: -200px;
+		top: 0px;
+		opacity: 0%;
+	}
+	75% {
+		opacity: 50%;
+	}
+	100% {
+		right: 0px;
+		top: 0px;
+		opacity: 100%;
+	}
+}
+@keyframes Otexto {
+	0% {
+		opacity: 0%;
+	}
+	50% {
+		opacity: 0%;
+	}
+	75% {
+		opacity: 50%;
+	}
+	100% {
+		opacity: 100%;
+	}
+}
+.Otexto {
+	animation-name: Otexto;
+	animation-duration: 2s;
+	position: relative;
+}
+.Otextoedgar {
+	animation-name: Otexto;
+	animation-duration: 2s;
+	position: relative;
+}
+.Otextojavi {
+	animation-name: Otexto;
+	animation-duration: 2.5s;
+	position: relative;
+}
+.Otextonil {
+	animation-name: Otexto;
+	animation-duration: 3s;
+	position: relative;
+}
+.edgaranima {
+	animation-name: example;
+	animation-duration: 2s;
+	position: relative;
+}
+.javianima {
+	animation-name: example;
+	animation-duration: 2.5s;
+	position: relative;
+}
+.nilanima {
+	animation-name: example;
+	animation-duration: 3s;
+	position: relative;
+}
+.imganima {
+	animation-name: example;
+	animation-duration: 3s;
+	position: relative;
+}
+.imganima2 {
+	animation-name: example2;
+	animation-duration: 3s;
+	position: relative;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+.lato-light {
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+.lato-regular {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.lato-bold {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.lato-black {
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+.lato-regular-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+}
+.lato-bold-italic {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+h3 {
+	justify-content: center;
+	text-align: justify;
+}
+.back {
+	background-image: url(Images/descarga.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1200px;
+	justify-content: center;
+	text-align: center;
+}
+.column {
+	float: left;
+	width: 50%;
+}
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.titulo {
+	font-size: 4.5cm;
+}
+.BLANCO {
+	color: azure;
+}
+.BOTON {
+	margin-left: 80%;
+}
+.marginado {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 130px;
+	margin-right: 2000px;
+	margin-top: 10%;
+}
+.marginado2 {
+	margin-bottom: 10%;
+}
+.caja {
+	margin-right: 2050px;
+	background-color: orange;
+	height: 50px;
+	width: 120px;
+}
+.correo {
+	margin-left: 30px;
+	position: fixed;
+}
+.nombre {
+	font-size: 100px;
+	font-family: 'Times New Roman', Times, serif;
+	margin-left: 1000;
+}
+.CV {
+	margin-left: 100px;
+	color: white;
+	background-color: orange;
+	height: 50px;
+	width: 120px;
+}
+.trabajos {
+	margin-right: 100px;
+	color: white;
+	background-color: orange;
+	height: 50px;
+	width: 120px;
+}
+.videos {
+	margin-right: 300px;
+	color: white;
+	background-color: orange;
+	height: 50px;
+	width: 120px;
+}
+.correo-color {
+	background-color: transparent;
+}
+.edgar {
+	background-image: url(img/edgar.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	background-position: 0.5em;
+	width: 165px;
+	height: 185px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.botonespro {
+	--bs-btn-color: #fff;
+	--bs-btn-bg: orange;
+	--bs-btn-border-color: transparent;
+	--bs-btn-hover-color: #fff;
+	--bs-btn-hover-bg: orange;
+	--bs-btn-hover-border-color: orange;
+	--bs-btn-focus-shadow-rgb: 49, 132, 253;
+	--bs-btn-active-color: #fff;
+	--bs-btn-active-bg: #0a58ca;
+	--bs-btn-active-border-color: #0a53be;
+	--bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+	--bs-btn-disabled-color: #fff;
+	--bs-btn-disabled-bg: #0d6efd;
+	--bs-btn-disabled-border-color: #0d6efd;
+}
